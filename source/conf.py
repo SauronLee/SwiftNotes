@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'SwiftNotes (ja)'
+project = 'SwiftNotes'
 copyright = '2022, Xiaoran Li'
 author = 'Xiaoran Li'
 
