@@ -65,8 +65,7 @@ html_static_path = ['_static']
 import sphinx_rtd_theme
 extensions = [
     'recommonmark',
-    'sphinx_rtd_theme',
-    'sphinx_markdown_tables'
+    'sphinx_rtd_theme'
 ]
 
 html_theme = "sphinx_rtd_theme"
