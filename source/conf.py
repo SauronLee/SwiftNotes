@@ -62,10 +62,8 @@ exclude_patterns = []
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-import sphinx_rtd_theme
-extensions = [
-    'recommonmark',
-    'sphinx_rtd_theme'
-]
-
-html_theme = "sphinx_rtd_theme"
+import os
+os.system("pip install sphinx-theme")
+import sphinx_theme
+html_theme = 'stanford_theme'
+html_theme_path = [sphinx_theme.get_html_theme_path('stanford-theme')]
