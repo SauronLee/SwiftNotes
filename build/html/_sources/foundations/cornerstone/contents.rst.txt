@@ -1,0 +1,39 @@
+Cornerstone
+==============
+
+Basic operations
+-----------------
+
+编译流程:  :ref:`Label` 
+Swift Code --> Swift AST --> Raw Swift IL --> Canonical Swift IL --> LLVM IR --> Assembly --> Executable
+ref: http://swift.org/compiler-stdlib
+
+Swiftc指令:
+1. 语法树生成 ``swiftc -dump-ast filename.swift``  
+2. 语法树导入其他文件 ``swiftc -dump-ast filename.swift -o theotherfile``  
+3. 生成简洁的SIL(Swift的中间代码): ``swift -emit-sil filename.swift``  
+
+Process control
+-----------------
+
+
+
+String
+--------
+
+
+
+Enumerate
+----------
+
+
+Set
+----
+
+
+Function
+---------
+
+
+Closure
+--------
